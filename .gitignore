@@ -1,0 +1,14 @@
+# The Xcode project is generated from project.yml by XcodeGen (on Codemagic).
+*.xcodeproj
+*.xcworkspace
+
+# Build output
+build/
+DerivedData/
+*.ipa
+*.xcarchive
+*.dSYM
+
+# macOS / Xcode noise
+.DS_Store
+xcuserdata/

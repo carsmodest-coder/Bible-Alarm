@@ -22,7 +22,7 @@
 
 An alarm clock that helps people start every day by reading God's word. When the alarm rings, the user sees a random Bible verse with a **fill-in-the-blank** challenge. The alarm is only fully cleared after they complete the verse. If they tap Stop on the system alarm without reading, **backup alarms keep ringing every few minutes** until they finish the verse in the app. **No ads, ever. No tracking.**
 
-Working name: **TBD** (ask Ryder). Placeholder bundle ID: `com.ryder.biblealarm` (confirm with Ryder before creating it on Apple's site).
+App name: **Bible Alarm** (confirmed by Ryder, 2026-11-14; display name can still change before App Store release). Bundle ID: `com.ryder.biblealarm` (confirmed by Ryder, 2026-11-14; not yet registered on Apple's site).
 
 ---
 
@@ -188,6 +188,13 @@ Bible text itself lives in bundled JSON files, not SwiftData.
 ---
 
 ## 9. Codemagic setup (no Mac)
+
+> **Current stage (2026-11-14): no paid Apple Developer account yet.**
+> Until Ryder enrolls, `codemagic.yaml` builds an **unsigned `.ipa`** (workflow `ios-unsigned`).
+> Ryder downloads it from the Codemagic build page and installs it with **Sideloadly** on Windows using a free Apple ID
+> (apps expire after 7 days; reinstall to renew). Unit tests on CI start when there is logic to test (Phase 3).
+> **Do not use features that need a paid account** (in-app purchases, push notifications, iCloud) until Ryder says he has enrolled.
+> After enrolling, switch to the signed TestFlight workflow described below.
 
 `codemagic.yaml` workflow should:
 1. Use a macOS instance with the latest Xcode that supports iOS 26.
