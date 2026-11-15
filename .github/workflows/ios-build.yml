@@ -37,6 +37,15 @@ jobs:
       - name: Generate Xcode project
         run: xcodegen generate
 
+      - name: Unit tests (simulator)
+        run: |
+          xcodebuild test \
+            -quiet \
+            -project "$XCODE_PROJECT" \
+            -scheme "$XCODE_SCHEME" \
+            -destination "platform=iOS Simulator,name=iPhone 17" \
+            CODE_SIGNING_ALLOWED=NO
+
       - name: Build app (no code signing)
         run: |
           xcodebuild archive \
