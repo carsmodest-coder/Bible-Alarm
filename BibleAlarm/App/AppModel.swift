@@ -139,6 +139,14 @@ final class AppModel {
     @discardableResult
     func completeDaily(_ finished: ChallengeSession) -> VerseRecord {
         BackupChain.verseCompleted()
+
+        // Reading today's verse a second time does not add a second entry or move a plan forward again.
+        let startOfDay = Calendar.current.startOfDay(for: Date())
+        let todays = (try? context.fetch(FetchDescriptor<VerseRecord>(predicate: #Predicate { $0.completedAt >= startOfDay }))) ?? []
+        if let existing = todays.first(where: { $0.ref == finished.verse.ref }) {
+            return existing
+        }
+
         let record = VerseRecord(verse: finished.verse)
         context.insert(record)
         try? context.save()

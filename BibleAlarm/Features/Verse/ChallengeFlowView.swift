@@ -43,6 +43,7 @@ struct VerseChallengeView: View {
     @State private var solvedCount = 0
     @State private var wrongCount = 0
     @State private var typed = ""
+    @State private var didFinish = false
     @State private var listener = SpeechListener()
     @FocusState private var typingFocused: Bool
 
@@ -232,6 +233,8 @@ struct VerseChallengeView: View {
     }
 
     private func finish() {
+        guard !didFinish else { return }
+        didFinish = true
         typingFocused = false
         Task {
             try? await Task.sleep(for: .milliseconds(600))
