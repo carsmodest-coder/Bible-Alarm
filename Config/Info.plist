@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSAlarmKitUsageDescription</key>
+	<string>Bible Alarm rings the alarms you set, even in Silent mode or a Focus.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>The microphone is used when you record your own alarm sound or read a verse aloud.</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>Speech recognition checks the verse you read aloud.</string>
+	<key>NSSupportsLiveActivities</key>
+	<true/>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+</dict>
+</plist>

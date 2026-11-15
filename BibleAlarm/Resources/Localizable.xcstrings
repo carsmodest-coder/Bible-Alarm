@@ -1,0 +1,1926 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "%@ once": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@（一次付清）"
+          }
+        }
+      }
+    },
+    "%@ per month": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "每月 %@"
+          }
+        }
+      }
+    },
+    "%@ per year": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "每年 %@"
+          }
+        }
+      }
+    },
+    "%lld minutes": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld 分鐘"
+          }
+        }
+      }
+    },
+    "7-day free trial, then %@": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "免費試用 7 天，之後%@"
+          }
+        }
+      }
+    },
+    "A plan gives you one key verse each morning, in order, with a link to read the whole chapter.": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "讀經計畫每天早上依序給你一節重點經文，並可閱讀整章。"
+          }
+        }
+      }
+    },
+    "Add alarm": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "新增鬧鐘"
+          }
+        }
+      }
+    },
+    "Add an alarm to start each day with a verse.": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "新增鬧鐘，每天以一節經文開始。"
+          }
+        }
+      }
+    },
+    "Add your own sound": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "加入自己的鈴聲"
+          }
+        }
+      }
+    },
+    "Advanced editing": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "進階編輯"
+          }
+        }
+      }
+    },
+    "Alarm": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "鬧鐘"
+          }
+        }
+      }
+    },
+    "Alarm ID": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "鬧鐘編號"
+          }
+        }
+      }
+    },
+    "Alarms": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "鬧鐘"
+          }
+        }
+      }
+    },
+    "Alarms are turned off": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "鬧鐘權限已關閉"
+          }
+        }
+      }
+    },
+    "Alarms are turned off for Bible Alarm. Allow them in the Settings app.": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bible Alarm 的鬧鐘權限已關閉。請在「設定」中允許。"
+          }
+        }
+      }
+    },
+    "All": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "全部"
+          }
+        }
+      }
+    },
+    "All verses": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "所有經文"
+          }
+        }
+      }
+    },
+    "Allow alarms": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "允許鬧鐘"
+          }
+        }
+      }
+    },
+    "Allow the microphone and speech recognition in the Settings app to read aloud.": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "請在「設定」中允許麥克風與語音辨識，才能朗讀作答。"
+          }
+        }
+      }
+    },
+    "Allow the microphone in the Settings app to record.": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "請在「設定」中允許使用麥克風才能錄音。"
+          }
+        }
+      }
+    },
+    "Allowed": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已允許"
+          }
+        }
+      }
+    },
+    "Amen": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "阿們"
+          }
+        }
+      }
+    },
+    "An alarm that waits for you": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "等你讀完的鬧鐘"
+          }
+        }
+      }
+    },
+    "Answer style": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "作答方式"
+          }
+        }
+      }
+    },
+    "App language": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "App 語言"
+          }
+        }
+      }
+    },
+    "Best streak": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "最佳紀錄"
+          }
+        }
+      }
+    },
+    "Bible Alarm": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bible Alarm"
+          }
+        }
+      }
+    },
+    "Bible Alarm Premium": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bible Alarm 進階版"
+          }
+        }
+      }
+    },
+    "Bible Alarm has no ads and never will. If it helps you, a tip helps keep it going.": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bible Alarm 沒有廣告，以後也不會有。如果它幫助了你，你的奉獻能讓它繼續下去。"
+          }
+        }
+      }
+    },
+    "Bible Alarm has no ads and no tracking, and it collects no data.": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bible Alarm 沒有廣告、不追蹤，也不收集任何資料。"
+          }
+        }
+      }
+    },
+    "Bible Alarm needs permission to ring. Allow alarms in the Settings app.": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bible Alarm 需要權限才能響鈴。請在「設定」中允許鬧鐘。"
+          }
+        }
+      }
+    },
+    "Bible text": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "聖經經文"
+          }
+        }
+      }
+    },
+    "Bible translations stay free. Premium pays for extra features and supports this ministry. Subscriptions renew automatically until cancelled in your App Store account settings.": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "聖經譯本永遠免費。進階版提供額外功能，並支持這項事工。訂閱會自動續訂，直到你在 App Store 帳號設定中取消。"
+          }
+        }
+      }
+    },
+    "Bible version": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "聖經譯本"
+          }
+        }
+      }
+    },
+    "Built-in": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "內建"
+          }
+        }
+      }
+    },
+    "Cancel": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "取消"
+          }
+        }
+      }
+    },
+    "Change in Settings": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "在「設定」中更改"
+          }
+        }
+      }
+    },
+    "Check": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "檢查"
+          }
+        }
+      }
+    },
+    "Chimes": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "風鈴"
+          }
+        }
+      }
+    },
+    "Choose your Bible": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "選擇聖經譯本"
+          }
+        }
+      }
+    },
+    "Clip length: %lld seconds": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "片段長度：%lld 秒"
+          }
+        }
+      }
+    },
+    "Close": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "關閉"
+          }
+        }
+      }
+    },
+    "Comfort": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "安慰"
+          }
+        }
+      }
+    },
+    "Continue": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "繼續"
+          }
+        }
+      }
+    },
+    "Courage": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "勇氣"
+          }
+        }
+      }
+    },
+    "Credits": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "致謝"
+          }
+        }
+      }
+    },
+    "Dawn": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "黎明"
+          }
+        }
+      }
+    },
+    "Day %lld of %lld": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "第 %lld 天，共 %lld 天"
+          }
+        }
+      }
+    },
+    "Day streak": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "連續天數"
+          }
+        }
+      }
+    },
+    "Delete alarm": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "刪除鬧鐘"
+          }
+        }
+      }
+    },
+    "Difficulty": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "難度"
+          }
+        }
+      }
+    },
+    "Difficulty here is used when you read the verse without an alarm. Each alarm has its own setting.": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "這裡的難度用於沒有鬧鐘時讀經文。每個鬧鐘有自己的設定。"
+          }
+        }
+      }
+    },
+    "Done": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "完成"
+          }
+        }
+      }
+    },
+    "Easy (1 word)": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "簡單（1 個詞）"
+          }
+        }
+      }
+    },
+    "Edit alarm": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "編輯鬧鐘"
+          }
+        }
+      }
+    },
+    "Entry ID": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "項目編號"
+          }
+        }
+      }
+    },
+    "Every day": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "每天"
+          }
+        }
+      }
+    },
+    "Fade in gently": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "漸強淡入"
+          }
+        }
+      }
+    },
+    "Faith": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "信心"
+          }
+        }
+      }
+    },
+    "Favorite": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "收藏"
+          }
+        }
+      }
+    },
+    "Favorites": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "收藏"
+          }
+        }
+      }
+    },
+    "Get started": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "開始使用"
+          }
+        }
+      }
+    },
+    "Gospel of John in 21 days": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "21 天讀約翰福音"
+          }
+        }
+      }
+    },
+    "Grace": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "恩典"
+          }
+        }
+      }
+    },
+    "Gratitude": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "感恩"
+          }
+        }
+      }
+    },
+    "Guidance": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "引導"
+          }
+        }
+      }
+    },
+    "Harp": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "豎琴"
+          }
+        }
+      }
+    },
+    "History": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "紀錄"
+          }
+        }
+      }
+    },
+    "Hope": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "盼望"
+          }
+        }
+      }
+    },
+    "If you stop the alarm without finishing the verse, it rings again until you do.": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "如果沒有完成經文就停止鬧鐘，鬧鐘會再次響起，直到你完成為止。"
+          }
+        }
+      }
+    },
+    "If you stop the alarm without reading, it rings again every few minutes until you finish the verse. Bible Alarm needs your permission to ring, even in Silent mode.": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "如果沒讀經文就停止鬧鐘，它會每隔幾分鐘再響，直到你完成經文。Bible Alarm 需要你的允許才能響鈴，即使在靜音模式也一樣。"
+          }
+        }
+      }
+    },
+    "Journey": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "歷程"
+          }
+        }
+      }
+    },
+    "Joy": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "喜樂"
+          }
+        }
+      }
+    },
+    "Label": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "標籤"
+          }
+        }
+      }
+    },
+    "Listening… read the verse aloud": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "聆聽中…請朗讀經文"
+          }
+        }
+      }
+    },
+    "Loading prices…": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "正在載入價格…"
+          }
+        }
+      }
+    },
+    "Love": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "愛"
+          }
+        }
+      }
+    },
+    "Memorize mode": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "背經模式"
+          }
+        }
+      }
+    },
+    "Memorize mode: quizzes on verses you have read": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "背經模式：用讀過的經文測驗"
+          }
+        }
+      }
+    },
+    "Morning": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "早晨"
+          }
+        }
+      }
+    },
+    "My recording": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "我的錄音"
+          }
+        }
+      }
+    },
+    "My sound": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "我的鈴聲"
+          }
+        }
+      }
+    },
+    "Name": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "名稱"
+          }
+        }
+      }
+    },
+    "New alarm": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "新增鬧鐘"
+          }
+        }
+      }
+    },
+    "No ads, ever. No tracking.": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "永遠沒有廣告，也不追蹤。"
+          }
+        }
+      }
+    },
+    "No alarms yet": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "還沒有鬧鐘"
+          }
+        }
+      }
+    },
+    "No favorites yet. Tap the heart on a verse to keep it here.": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "還沒有收藏。在經文上點愛心，就會保存在這裡。"
+          }
+        }
+      }
+    },
+    "No purchases were found to restore.": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "找不到可回復的購買項目。"
+          }
+        }
+      }
+    },
+    "Normal (2 words)": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "一般（2 個詞）"
+          }
+        }
+      }
+    },
+    "Not asked yet": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "尚未詢問"
+          }
+        }
+      }
+    },
+    "OK": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "好"
+          }
+        }
+      }
+    },
+    "Once": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "一次"
+          }
+        }
+      }
+    },
+    "Only in test builds. This switch is removed from the App Store version.": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "只在測試版出現。App Store 版本不會有這個開關。"
+          }
+        }
+      }
+    },
+    "Open Settings": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "打開設定"
+          }
+        }
+      }
+    },
+    "Peace": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "平安"
+          }
+        }
+      }
+    },
+    "Permission": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "權限"
+          }
+        }
+      }
+    },
+    "Pick an MP3, M4A, WAV or AAC file from the Files app. Your sounds stay on this iPhone and are never uploaded.": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "從「檔案」選擇 MP3、M4A、WAV 或 AAC 檔案。你的鈴聲只會留在這部 iPhone，絕不會上傳。"
+          }
+        }
+      }
+    },
+    "Prayer": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "禱告"
+          }
+        }
+      }
+    },
+    "Premium": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "進階版"
+          }
+        }
+      }
+    },
+    "Premium is active": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "進階版已啟用"
+          }
+        }
+      }
+    },
+    "Preview": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "試聽"
+          }
+        }
+      }
+    },
+    "Privacy": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "隱私"
+          }
+        }
+      }
+    },
+    "Proverbs in 31 days": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "31 天讀箴言"
+          }
+        }
+      }
+    },
+    "Psalms": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "詩篇"
+          }
+        }
+      }
+    },
+    "Psalms in 30 days": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "30 天讀詩篇"
+          }
+        }
+      }
+    },
+    "Purchases are not available in this build yet.": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "這個版本尚未開放購買。"
+          }
+        }
+      }
+    },
+    "Quiz yourself on verses you have already read.": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "用讀過的經文來測驗自己。"
+          }
+        }
+      }
+    },
+    "Read aloud": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "朗讀"
+          }
+        }
+      }
+    },
+    "Read it again": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "再讀一次"
+          }
+        }
+      }
+    },
+    "Read the verse aloud": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "請朗讀經文"
+          }
+        }
+      }
+    },
+    "Read the whole chapter": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "閱讀整章"
+          }
+        }
+      }
+    },
+    "Read today's verse": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "讀今天的經文"
+          }
+        }
+      }
+    },
+    "Read today's verse to stop the alarm": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "讀完今天的經文才能停止鬧鐘"
+          }
+        }
+      }
+    },
+    "Read verse": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "讀經文"
+          }
+        }
+      }
+    },
+    "Reading": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "讀經"
+          }
+        }
+      }
+    },
+    "Reading plans": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "讀經計畫"
+          }
+        }
+      }
+    },
+    "Record up to 30 seconds": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "最多可錄 30 秒"
+          }
+        }
+      }
+    },
+    "Record your voice": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "錄下你的聲音"
+          }
+        }
+      }
+    },
+    "Reflection": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "感想"
+          }
+        }
+      }
+    },
+    "Repeat": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "重複"
+          }
+        }
+      }
+    },
+    "Restore Purchases": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "回復購買項目"
+          }
+        }
+      }
+    },
+    "Ring again every": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "再次響鈴間隔"
+          }
+        }
+      }
+    },
+    "Save": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "儲存"
+          }
+        }
+      }
+    },
+    "Saved": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已收藏"
+          }
+        }
+      }
+    },
+    "See Premium": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "了解進階版"
+          }
+        }
+      }
+    },
+    "Settings": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "設定"
+          }
+        }
+      }
+    },
+    "Share": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "分享"
+          }
+        }
+      }
+    },
+    "Show": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "顯示"
+          }
+        }
+      }
+    },
+    "Sound": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "鈴聲"
+          }
+        }
+      }
+    },
+    "Sounds": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "鈴聲"
+          }
+        }
+      }
+    },
+    "Speech recognition is not available right now.": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "目前無法使用語音辨識。"
+          }
+        }
+      }
+    },
+    "Start point": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "開始位置"
+          }
+        }
+      }
+    },
+    "Start reading": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "開始朗讀"
+          }
+        }
+      }
+    },
+    "Start recording": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "開始錄音"
+          }
+        }
+      }
+    },
+    "Start today with God's word": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "用神的話語開始今天"
+          }
+        }
+      }
+    },
+    "Starts at %@ · plays for %lld seconds": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "從 %@ 開始 · 播放 %lld 秒"
+          }
+        }
+      }
+    },
+    "Still Waters": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "安歇的水邊"
+          }
+        }
+      }
+    },
+    "Stop": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "停止"
+          }
+        }
+      }
+    },
+    "Stop alarm": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "停止鬧鐘"
+          }
+        }
+      }
+    },
+    "Stop and use": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "停止並使用"
+          }
+        }
+      }
+    },
+    "Streak": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "連續天數"
+          }
+        }
+      }
+    },
+    "Strength": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "力量"
+          }
+        }
+      }
+    },
+    "Strict mode": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "嚴格模式"
+          }
+        }
+      }
+    },
+    "Strict mode: type the word or read the verse aloud": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "嚴格模式：輸入缺少的詞，或朗讀整節經文"
+          }
+        }
+      }
+    },
+    "Support this ministry": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "支持這項事工"
+          }
+        }
+      }
+    },
+    "Tap the missing word": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "點選缺少的詞"
+          }
+        }
+      }
+    },
+    "Tap the word": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "點選"
+          }
+        }
+      }
+    },
+    "Tap the words instead": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "改用點選作答"
+          }
+        }
+      }
+    },
+    "Test build": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "測試版"
+          }
+        }
+      }
+    },
+    "Text files from the open-bibles project (github.com/seven1m/open-bibles).": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "經文檔案來自 open-bibles 專案（github.com/seven1m/open-bibles）。"
+          }
+        }
+      }
+    },
+    "Thank you! Your purchase is complete.": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "謝謝你！購買已完成。"
+          }
+        }
+      }
+    },
+    "The alarm could not be set. Please try again.": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "無法設定鬧鐘，請再試一次。"
+          }
+        }
+      }
+    },
+    "The built-in alarm tones were created for Bible Alarm. Sounds you add stay on your iPhone and are never uploaded.": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "內建鈴聲是為 Bible Alarm 製作的。你加入的鈴聲只會留在你的 iPhone，絕不會上傳。"
+          }
+        }
+      }
+    },
+    "The file could not be read. Songs from Apple Music or Spotify are protected and can't be imported.": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "無法讀取檔案。Apple Music 或 Spotify 的歌曲受到保護，無法匯入。"
+          }
+        }
+      }
+    },
+    "The purchase could not be verified.": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "無法驗證這筆購買。"
+          }
+        }
+      }
+    },
+    "The purchase did not go through. Please try again.": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "購買未完成，請再試一次。"
+          }
+        }
+      }
+    },
+    "The sound could not be saved": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "無法儲存鈴聲"
+          }
+        }
+      }
+    },
+    "Themed sets": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "主題經文"
+          }
+        }
+      }
+    },
+    "Themed sets and reading plans": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "主題經文與讀經計畫"
+          }
+        }
+      }
+    },
+    "Themed verse sets and reading plans": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "主題經文與讀經計畫"
+          }
+        }
+      }
+    },
+    "This file can't be used": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "無法使用這個檔案"
+          }
+        }
+      }
+    },
+    "Time": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "時間"
+          }
+        }
+      }
+    },
+    "Time to read God's word": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "該讀神的話語了"
+          }
+        }
+      }
+    },
+    "Tip jar": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "奉獻支持"
+          }
+        }
+      }
+    },
+    "Today's verse is done": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "今天的經文已完成"
+          }
+        }
+      }
+    },
+    "Trim sound": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "剪輯鈴聲"
+          }
+        }
+      }
+    },
+    "Turned off": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已關閉"
+          }
+        }
+      }
+    },
+    "Type the missing word": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "輸入缺少的詞"
+          }
+        }
+      }
+    },
+    "Type the word": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "輸入"
+          }
+        }
+      }
+    },
+    "Unlock Premium for testing": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "測試用：解鎖進階版"
+          }
+        }
+      }
+    },
+    "Verse %lld of %lld": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "第 %lld 題，共 %lld 題"
+          }
+        }
+      }
+    },
+    "Verses from": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "經文來源"
+          }
+        }
+      }
+    },
+    "Verses read": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已讀經文"
+          }
+        }
+      }
+    },
+    "Verses reviewed: %lld": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已複習經文：%lld"
+          }
+        }
+      }
+    },
+    "Verses you complete will appear here.": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "完成的經文會顯示在這裡。"
+          }
+        }
+      }
+    },
+    "Version": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "版本"
+          }
+        }
+      }
+    },
+    "Wake up to God's word": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "在神的話語中醒來"
+          }
+        }
+      }
+    },
+    "Waveform trim, fade-in and voice recording for alarm sounds": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "鈴聲波形剪輯、淡入與錄音"
+          }
+        }
+      }
+    },
+    "Waveform, clip length and fade-in": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "波形、片段長度與淡入"
+          }
+        }
+      }
+    },
+    "Weekdays": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "平日"
+          }
+        }
+      }
+    },
+    "Weekends": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "週末"
+          }
+        }
+      }
+    },
+    "Well done": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "做得好"
+          }
+        }
+      }
+    },
+    "What stands out to you today?": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "今天哪一句話觸動了你？"
+          }
+        }
+      }
+    },
+    "When your alarm rings, a Bible verse is waiting. Fill in the missing word to start your day.": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "鬧鐘響起時，一節經文正等著你。填上缺少的詞，開始新的一天。"
+          }
+        }
+      }
+    },
+    "Wisdom": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "智慧"
+          }
+        }
+      }
+    },
+    "Write a thought (optional)": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "寫下感想（可不填）"
+          }
+        }
+      }
+    },
+    "You can change this later in Settings. The app follows your iPhone's language (English or 繁體中文).": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "之後可以在設定中更改。App 會跟隨 iPhone 的語言（English 或繁體中文）。"
+          }
+        }
+      }
+    },
+    "Your purchase is waiting for approval.": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "你的購買正在等待核准。"
+          }
+        }
+      }
+    },
+    "Your purchases have been restored.": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已回復你的購買項目。"
+          }
+        }
+      }
+    },
+    "Your sounds": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "你的鈴聲"
+          }
+        }
+      }
+    },
+    "iOS will not allow any more alarms. Delete one and try again.": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iOS 不允許再新增鬧鐘。請刪除一個後再試。"
+          }
+        }
+      }
+    },
+    "iPhone alarm sound": {
+      "localizations": {
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iPhone 鬧鐘鈴聲"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

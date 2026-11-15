@@ -1,0 +1,82 @@
+# Compile check on GitHub's free macOS machines (free because the repo is public).
+# It runs the same steps as codemagic.yaml so build errors are caught on every push,
+# and it also attaches the unsigned .ipa to the run as a downloadable artifact.
+name: iOS build check
+
+on:
+  push:
+    branches:
+      - main
+      - "claude/**"
+  workflow_dispatch:
+
+concurrency:
+  group: ios-build-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: macos-26
+    timeout-minutes: 45
+    env:
+      XCODE_PROJECT: BibleAlarm.xcodeproj
+      XCODE_SCHEME: BibleAlarm
+      APP_NAME: BibleAlarm
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install XcodeGen
+        run: |
+          HOMEBREW_NO_AUTO_UPDATE=1 brew install xcodegen
+          xcodegen --version
+          xcodebuild -version
+
+      - name: Generate Xcode project
+        run: xcodegen generate
+
+      - name: Unit tests (simulator)
+        run: |
+          set -o pipefail
+          xcodebuild test \
+            -project "$XCODE_PROJECT" \
+            -scheme "$XCODE_SCHEME" \
+            -destination "platform=iOS Simulator,name=iPhone 17" \
+            CODE_SIGNING_ALLOWED=NO 2>&1 \
+            | grep -E "error:|warning: var|XCTAssert|Executed [0-9]+ tests|TEST (SUCCEEDED|FAILED)|Testing failed|\*\* "
+
+      - name: Build app (no code signing)
+        run: |
+          xcodebuild archive \
+            -quiet \
+            -project "$XCODE_PROJECT" \
+            -scheme "$XCODE_SCHEME" \
+            -configuration Release \
+            -destination "generic/platform=iOS" \
+            -archivePath "build/$APP_NAME.xcarchive" \
+            CURRENT_PROJECT_VERSION="${{ github.run_number }}" \
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS=SIDELOAD_TEST \
+            CODE_SIGN_IDENTITY="" \
+            CODE_SIGNING_REQUIRED=NO \
+            CODE_SIGNING_ALLOWED=NO
+
+      - name: Package unsigned .ipa
+        run: |
+          cd build
+          rm -rf Payload
+          mkdir Payload
+          cp -R "$APP_NAME.xcarchive/Products/Applications/$APP_NAME.app" Payload/
+          zip -qry "$APP_NAME-unsigned-${{ github.run_number }}.ipa" Payload
+          echo "--- app bundle contents"
+          ls Payload/$APP_NAME.app | head -60
+          rm -rf Payload
+          ls -lh ./*.ipa
+
+      - name: Upload .ipa
+        uses: actions/upload-artifact@v4
+        with:
+          name: BibleAlarm-unsigned-ipa
+          path: build/*.ipa
+          if-no-files-found: error
