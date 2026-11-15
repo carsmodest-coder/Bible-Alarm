@@ -37,15 +37,24 @@ jobs:
       - name: Generate Xcode project
         run: xcodegen generate
 
-      - name: Unit tests (simulator)
+      - name: Unit tests and simulator walk-through
         run: |
           set -o pipefail
-          xcodebuild test \
+          mkdir -p "$PWD/build/screenshots"
+          TEST_RUNNER_SCREENSHOT_DIR="$PWD/build/screenshots" xcodebuild test \
             -project "$XCODE_PROJECT" \
             -scheme "$XCODE_SCHEME" \
             -destination "platform=iOS Simulator,name=iPhone 17" \
             CODE_SIGNING_ALLOWED=NO 2>&1 \
-            | grep -E "error:|warning: var|XCTAssert|Executed [0-9]+ tests|TEST (SUCCEEDED|FAILED)|Testing failed|\*\* "
+            | grep -E "error:|UITEST|XCTAssert|Executed [0-9]+ tests|TEST (SUCCEEDED|FAILED)|Testing failed|\*\* |Test Case .* (passed|failed)|Fatal error|crashed"
+
+      - name: Upload screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: BibleAlarm-screenshots
+          path: build/screenshots/*.png
+          if-no-files-found: warn
 
       - name: Build app (no code signing)
         run: |

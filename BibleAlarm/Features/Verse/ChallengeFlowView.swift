@@ -88,6 +88,7 @@ struct VerseChallengeView: View {
                     .multilineTextAlignment(.leading)
                     .frame(maxWidth: .infinity, alignment: .leading)
                     .padding(24)
+                    .accessibilityIdentifier("verse-text")
                     .modifier(ShakeEffect(animatableData: CGFloat(wrongCount)))
             }
 
@@ -148,7 +149,7 @@ struct VerseChallengeView: View {
                         .font(.subheadline)
                         .foregroundStyle(Theme.secondaryText)
                     LazyVGrid(columns: [GridItem(.flexible(), spacing: 12), GridItem(.flexible(), spacing: 12)], spacing: 12) {
-                        ForEach(blank.choices, id: \.self) { choice in
+                        ForEach(Array(blank.choices.enumerated()), id: \.element) { index, choice in
                             Button {
                                 answer(choice)
                             } label: {
@@ -162,6 +163,7 @@ struct VerseChallengeView: View {
                                     .background(Theme.card, in: RoundedRectangle(cornerRadius: 18))
                             }
                             .buttonStyle(.plain)
+                            .accessibilityIdentifier("choice-\(index)")
                         }
                     }
                 }
