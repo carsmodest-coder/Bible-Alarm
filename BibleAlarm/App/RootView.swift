@@ -1,49 +1,46 @@
 import SwiftUI
 
-/// Phase 0 placeholder screen. Its only job is to prove the build pipeline
-/// works end to end: GitHub -> Codemagic -> iPhone.
+/// Decides what is on screen: onboarding, the main tabs, or the wake-up verse on top of everything.
 struct RootView: View {
+    @Environment(AppModel.self) private var model
+    @Environment(\.scenePhase) private var scenePhase
+
     var body: some View {
-        ZStack {
-            Color.black
-                .ignoresSafeArea()
-
-            VStack(spacing: 28) {
-                Spacer()
-
-                Image(systemName: "sunrise.fill")
-                    .font(.system(size: 72))
-                    .foregroundStyle(Color.orange)
-
-                Text("Bible Alarm")
-                    .font(.largeTitle)
-                    .fontWeight(.bold)
-                    .foregroundStyle(Color.white)
-
-                Text("Thy word is a lamp unto my feet, and a light unto my path.")
-                    .font(.title3)
-                    .multilineTextAlignment(.center)
-                    .foregroundStyle(Color.white.opacity(0.85))
-
-                Text("Psalm 119:105 (KJV)")
-                    .font(.subheadline)
-                    .foregroundStyle(Color.white.opacity(0.6))
-
-                Spacer()
-
-                Text("Test build \(appVersion) (\(buildNumber))")
-                    .font(.footnote)
-                    .foregroundStyle(Color.white.opacity(0.5))
+        @Bindable var model = model
+        Group {
+            if model.settings.hasOnboarded {
+                MainTabs()
+            } else {
+                OnboardingView()
             }
-            .padding(32)
+        }
+        .fullScreenCover(item: $model.session) { session in
+            ChallengeFlowView(session: session)
+        }
+        .task {
+            model.store.start()
+            await model.appBecameActive()
+        }
+        .onChange(of: scenePhase) { _, phase in
+            if phase == .active {
+                Task { await model.appBecameActive() }
+            }
         }
     }
+}
 
-    private var appVersion: String {
-        Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String ?? "?"
-    }
-
-    private var buildNumber: String {
-        Bundle.main.object(forInfoDictionaryKey: "CFBundleVersion") as? String ?? "?"
+struct MainTabs: View {
+    var body: some View {
+        TabView {
+            Tab("Alarms", systemImage: "alarm.fill") {
+                AlarmListView()
+            }
+            Tab("Journey", systemImage: "flame.fill") {
+                JourneyView()
+            }
+            Tab("Settings", systemImage: "gearshape.fill") {
+                SettingsView()
+            }
+        }
     }
 }

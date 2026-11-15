@@ -50,6 +50,7 @@ workflows:
             -destination "generic/platform=iOS" \
             -archivePath "build/$APP_NAME.xcarchive" \
             CURRENT_PROJECT_VERSION="${PROJECT_BUILD_NUMBER:-1}" \
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS=SIDELOAD_TEST \
             CODE_SIGN_IDENTITY="" \
             CODE_SIGNING_REQUIRED=NO \
             CODE_SIGNING_ALLOWED=NO

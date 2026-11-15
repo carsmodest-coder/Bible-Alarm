@@ -56,3 +56,22 @@ enum BackupPolicy {
         now.addingTimeInterval(TimeInterval(normalizedInterval(intervalMinutes) * 60))
     }
 }
+
+/// How many words are hidden in the morning verse.
+enum Difficulty: String, CaseIterable, Sendable, Identifiable {
+    case easy
+    case normal
+
+    var id: String { rawValue }
+    var blankCount: Int { self == .easy ? 1 : 2 }
+}
+
+/// How the hidden words are answered. Typing and reading aloud are Premium strict modes.
+enum ChallengeMode: String, CaseIterable, Sendable, Identifiable {
+    case tap
+    case type
+    case speak
+
+    var id: String { rawValue }
+    var isPremium: Bool { self != .tap }
+}
